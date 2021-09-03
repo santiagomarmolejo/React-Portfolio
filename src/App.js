@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header.js"
 import BigImage from "./components/BigImage";
 import AboutMe from "./components/AboutMe";
+import MyWork from "./components/MyWork";
 
 function App() {
     return (
@@ -9,7 +10,7 @@ function App() {
             <Header/>
             <BigImage/>
             <AboutMe/>
-            <h1> Hola </h1>
+            <MyWork/>
         </div>
     );
 }
