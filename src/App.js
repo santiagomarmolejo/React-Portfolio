@@ -3,6 +3,7 @@ import Header from "./components/Header.js"
 import BigImage from "./components/BigImage";
 import AboutMe from "./components/AboutMe";
 import MyWork from "./components/MyWork";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <BigImage/>
             <AboutMe/>
             <MyWork/>
+            <Footer/>
         </div>
     );
 }
